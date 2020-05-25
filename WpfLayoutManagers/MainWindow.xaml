@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfLayoutManagers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLayoutManagers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="588" Width="443.5">
+    <ScrollViewer HorizontalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+        <StackPanel x:Name="stackPanel">
+            <Button x:Name="btnCanvas" Content="Canvas Window" FontSize="30"/>
+            <Button x:Name="btnGrid" Content="Grid Window" FontSize="30"/>
+            <Button x:Name="btnStackPanel" Content="StackPanel Window" FontSize="30"/>
+            <Button x:Name="btnDockPanel" Content="DockPanel Window" FontSize="30"/>
+            <Button x:Name="btnGridSplitter" Content="GridSplitter Window" FontSize="30"/>
+            <Button x:Name="btnScrollVierwer" Content="ScrollViewer Window" FontSize="30"/>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>

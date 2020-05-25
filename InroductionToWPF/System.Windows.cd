@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Windows.AttachedPropertyBrowsableAttribute" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.AttachedPropertyBrowsableForTypeAttribute" Collapsed="true">
+    <Position X="0.75" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.AttachedPropertyBrowsableWhenAttributePresentAttribute" Collapsed="true">
+    <Position X="3" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.BaseCompatibilityPreferences" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DependencyObject" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DependencyObjectType" Collapsed="true">
+    <Position X="41.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DependencyProperty" Collapsed="true">
+    <Position X="43.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DependencyPropertyKey" Collapsed="true">
+    <Position X="47" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.NameScope" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Expression" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ExpressionConverter" Collapsed="true">
+    <Position X="47" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Freezable" Collapsed="true">
+    <Position X="24.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Int32RectConverter" Collapsed="true">
+    <Position X="36.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.PointConverter" Collapsed="true">
+    <Position X="36.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.RectConverter" Collapsed="true">
+    <Position X="43.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SizeConverter" Collapsed="true">
+    <Position X="38.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VectorConverter" Collapsed="true">
+    <Position X="34.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.PropertyMetadata" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SplashScreen" Collapsed="true">
+    <Position X="40" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.WeakEventManager" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.WeakEventManager&lt;TEventSource, TEventArgs&gt;" Collapsed="true">
+    <Position X="13.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.AutoResizedEventArgs" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Clipboard" Collapsed="true">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ContentElement" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.CoreCompatibilityPreferences" Collapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ContentOperations" Collapsed="true">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.CultureInfoIetfLanguageTagConverter" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataFormats" Collapsed="true">
+    <Position X="34.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataFormat" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.DataObjectEventArgs" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataObjectCopyingEventArgs" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataObjectPastingEventArgs" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataObjectSettingDataEventArgs" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.HwndDpiChangedEventArgs" Collapsed="true">
+    <Position X="34.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DpiChangedEventArgs" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DragDrop" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DragEventArgs" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DurationConverter" Collapsed="true">
+    <Position X="34.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.EventManager" Collapsed="true">
+    <Position X="40" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.EventPrivateKey" Collapsed="true">
+    <Position X="41.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.EventRoute" Collapsed="true">
+    <Position X="43.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontStyleConverter" Collapsed="true">
+    <Position X="38.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontStyles" Collapsed="true">
+    <Position X="40" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontStretchConverter" Collapsed="true">
+    <Position X="34.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontStretches" Collapsed="true">
+    <Position X="36.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontWeightConverter" Collapsed="true">
+    <Position X="41.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontWeights" Collapsed="true">
+    <Position X="43.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FreezableCollection&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.UIElement" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.UIElement3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.GiveFeedbackEventArgs" Collapsed="true">
+    <Position X="28.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.LocalizabilityAttribute" Collapsed="true">
+    <Position X="43.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.PresentationSource" Collapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.QueryContinueDragEventArgs" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.RoutedEventArgs" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.RoutedEvent" Collapsed="true">
+    <Position X="31.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SizeChangedInfo" Collapsed="true">
+    <Position X="36.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SourceChangedEventArgs" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TextDecorations" Collapsed="true">
+    <Position X="40" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TextDecoration" Collapsed="true">
+    <Position X="34.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TextDecorationCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.TextDecorationCollectionConverter" Collapsed="true">
+    <Position X="38.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.UIPropertyMetadata" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.StrokeCollectionConverter" Collapsed="true">
+    <Position X="45.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.KeySplineConverter" Collapsed="true">
+    <Position X="38.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.KeyTimeConverter" Collapsed="true">
+    <Position X="40" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Application" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.AttachedPropertyBrowsableForChildrenAttribute" Collapsed="true">
+    <Position X="5.25" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FrameworkCompatibilityPreferences" Collapsed="true">
+    <Position X="45.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ComponentResourceKey" Collapsed="true">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Condition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.ConditionCollection" Collapsed="true">
+    <Position X="41.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ExceptionRoutedEventArgs" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.MediaScriptCommandRoutedEventArgs" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.CornerRadiusConverter" Collapsed="true">
+    <Position X="47" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataTemplate" Collapsed="true">
+    <Position X="5.5" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataTemplateKey" Collapsed="true">
+    <Position X="10.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DataTrigger" Collapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.DeferrableContent" Collapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DeferrableContentConverter" Collapsed="true">
+    <Position X="40" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DependencyPropertyHelper" Collapsed="true">
+    <Position X="45.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DialogResultConverter" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DynamicResourceExtension" Collapsed="true">
+    <Position X="36.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.DynamicResourceExtensionConverter" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.EventSetter" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.EventTrigger" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.ExitEventArgs" Collapsed="true">
+    <Position X="45.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FigureLengthConverter" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FontSizeConverter" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FrameworkContentElement" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.FrameworkElement" Collapsed="true">
+    <Position X="0.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.FrameworkElementFactory" Collapsed="true">
+    <Position X="47" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FrameworkPropertyMetadata" Collapsed="true">
+    <Position X="8.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.FrameworkTemplate" Collapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.GridLengthConverter" Collapsed="true">
+    <Position X="33" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.HierarchicalDataTemplate" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.LengthConverter" Collapsed="true">
+    <Position X="41.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Localization" Collapsed="true">
+    <Position X="45.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.LogicalTreeHelper" Collapsed="true">
+    <Position X="47" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.LostFocusEventManager" Collapsed="true">
+    <Position X="11.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.MessageBox" Collapsed="true">
+    <Position X="31.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.MultiDataTrigger" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.MultiTrigger" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.NullableBoolConverter" Collapsed="true">
+    <Position X="34.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.PropertyPath" Collapsed="true">
+    <Position X="40" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.PropertyPathConverter" Collapsed="true">
+    <Position X="41.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.RequestBringIntoViewEventArgs" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ResourceDictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.ColorConvertedBitmapExtension" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.StaticResourceExtension" Collapsed="true">
+    <Position X="43.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ResourceKey" Collapsed="true">
+    <Position X="9.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ResourceReferenceKeyNotFoundException" Collapsed="true">
+    <Position X="47" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.RoutedPropertyChangedEventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Setter" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.SetterBase" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SetterBaseCollection" Collapsed="true">
+    <Position X="34.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SizeChangedEventArgs" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SessionEndingCancelEventArgs" Collapsed="true">
+    <Position X="33" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.StartupEventArgs" Collapsed="true">
+    <Position X="41.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Style" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.StyleTypedPropertyAttribute" Collapsed="true">
+    <Position X="31.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SystemColors" Collapsed="true">
+    <Position X="33" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SystemCommands" Collapsed="true">
+    <Position X="34.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SystemFonts" Collapsed="true">
+    <Position X="36.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.SystemParameters" Collapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateBindingExpression" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateBindingExpressionConverter" Collapsed="true">
+    <Position X="40" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateBindingExtension" Collapsed="true">
+    <Position X="41.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateBindingExtensionConverter" Collapsed="true">
+    <Position X="43.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateContent" Collapsed="true">
+    <Position X="45.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateContentLoader" Collapsed="true">
+    <Position X="47" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateKey" Collapsed="true">
+    <Position X="10.75" Y="10" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.TemplatePartAttribute" Collapsed="true">
+    <Position X="31.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TemplateVisualStateAttribute" Collapsed="true">
+    <Position X="33" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ThemeDictionaryExtension" Collapsed="true">
+    <Position X="41.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ThemeInfoAttribute" Collapsed="true">
+    <Position X="43.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.ThicknessConverter" Collapsed="true">
+    <Position X="45.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Trigger" Collapsed="true">
+    <Position X="6.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.TriggerAction" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TriggerActionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.TriggerBase" Collapsed="true">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.TriggerCollection" Collapsed="true">
+    <Position X="31.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VisualState" Collapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VisualStateChangedEventArgs" Collapsed="true">
+    <Position X="36.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VisualStateGroup" Collapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VisualStateManager" Collapsed="true">
+    <Position X="22" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.VisualTransition" Collapsed="true">
+    <Position X="26.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="38.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.WindowCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="System.Windows.DependencyPropertyChangedEventArgs" Collapsed="true">
+    <Position X="33" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.Int32Rect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.Point" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.Rect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.Size" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.Vector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.LocalValueEnumerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.LocalValueEntry" Collapsed="true">
+    <Position X="31.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.Duration" Collapsed="true">
+    <Position X="36.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.FontStyle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.FontStretch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.FontWeight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.RoutedEventHandlerInfo" Collapsed="true">
+    <Position X="38.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.DpiScale" Collapsed="true">
+    <Position X="34.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.CornerRadius" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.ValueSource" Collapsed="true">
+    <Position X="43.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="System.Windows.FigureLength" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.GridLength" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Windows.Thickness" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="System.Windows.IWeakEventListener" Collapsed="true">
+    <Position X="34.75" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Windows.IContentHost" Collapsed="true">
+    <Position X="31.25" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Windows.IDataObject" Collapsed="true">
+    <Position X="33" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Windows.IInputElement" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Windows.IFrameworkInputElement" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="System.Windows.DragAction" Collapsed="true">
+    <Position X="36.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.DragDropEffects" Collapsed="true">
+    <Position X="38.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.DragDropKeyStates" Collapsed="true">
+    <Position X="40" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.LocalizationCategory" Collapsed="true">
+    <Position X="36.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.Modifiability" Collapsed="true">
+    <Position X="45.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.Readability" Collapsed="true">
+    <Position X="31.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.RoutingStrategy" Collapsed="true">
+    <Position X="38.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.SizeToContent" Collapsed="true">
+    <Position X="41.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.BaselineAlignment" Collapsed="true">
+    <Position X="31.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextAlignment" Collapsed="true">
+    <Position X="43.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FlowDirection" Collapsed="true">
+    <Position X="47" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.LineBreakCondition" Collapsed="true">
+    <Position X="33" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextMarkerStyle" Collapsed="true">
+    <Position X="33" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextWrapping" Collapsed="true">
+    <Position X="36.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextTrimming" Collapsed="true">
+    <Position X="34.75" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontVariants" Collapsed="true">
+    <Position X="41.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontCapitals" Collapsed="true">
+    <Position X="31.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontFraction" Collapsed="true">
+    <Position X="36.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontNumeralStyle" Collapsed="true">
+    <Position X="40" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontNumeralAlignment" Collapsed="true">
+    <Position X="38.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontEastAsianWidths" Collapsed="true">
+    <Position X="34.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FontEastAsianLanguage" Collapsed="true">
+    <Position X="33" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextDataFormat" Collapsed="true">
+    <Position X="45.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.Visibility" Collapsed="true">
+    <Position X="40" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextDecorationLocation" Collapsed="true">
+    <Position X="47" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.TextDecorationUnit" Collapsed="true">
+    <Position X="31.25" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.ShutdownMode" Collapsed="true">
+    <Position X="40" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.ReasonSessionEnding" Collapsed="true">
+    <Position X="33" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.BaseValueSource" Collapsed="true">
+    <Position X="33" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FigureUnitType" Collapsed="true">
+    <Position X="43.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.HorizontalAlignment" Collapsed="true">
+    <Position X="47" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.VerticalAlignment" Collapsed="true">
+    <Position X="38.25" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FrameworkPropertyMetadataOptions" Collapsed="true">
+    <Position X="43.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.GridUnitType" Collapsed="true">
+    <Position X="45.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.InheritanceBehavior" Collapsed="true">
+    <Position X="31.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.MessageBoxResult" Collapsed="true">
+    <Position X="43.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.MessageBoxOptions" Collapsed="true">
+    <Position X="41.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.MessageBoxImage" Collapsed="true">
+    <Position X="40" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.MessageBoxButton" Collapsed="true">
+    <Position X="38.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.ResourceDictionaryLocation" Collapsed="true">
+    <Position X="36.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.PowerLineStatus" Collapsed="true">
+    <Position X="47" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.LineStackingStrategy" Collapsed="true">
+    <Position X="34.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.ColumnSpaceDistribution" Collapsed="true">
+    <Position X="34.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FigureVerticalAnchor" Collapsed="true">
+    <Position X="45.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.FigureHorizontalAnchor" Collapsed="true">
+    <Position X="41.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.WrapDirection" Collapsed="true">
+    <Position X="47" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.WindowStyle" Collapsed="true">
+    <Position X="45.25" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.WindowState" Collapsed="true">
+    <Position X="43.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.WindowStartupLocation" Collapsed="true">
+    <Position X="41.75" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="System.Windows.ResizeMode" Collapsed="true">
+    <Position X="34.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="System.Windows.CoerceValueCallback" Collapsed="true">
+    <Position X="33" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DependencyPropertyChangedEventHandler" Collapsed="true">
+    <Position X="40" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.PropertyChangedCallback" Collapsed="true">
+    <Position X="33" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.ValidateValueCallback" Collapsed="true">
+    <Position X="31.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.AutoResizedEventHandler" Collapsed="true">
+    <Position X="31.25" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DataObjectCopyingEventHandler" Collapsed="true">
+    <Position X="34.75" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DataObjectPastingEventHandler" Collapsed="true">
+    <Position X="36.5" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DataObjectSettingDataEventHandler" Collapsed="true">
+    <Position X="38.25" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DpiChangedEventHandler" Collapsed="true">
+    <Position X="41.75" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.HwndDpiChangedEventHandler" Collapsed="true">
+    <Position X="31.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.DragEventHandler" Collapsed="true">
+    <Position X="43.5" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.GiveFeedbackEventHandler" Collapsed="true">
+    <Position X="47" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.QueryContinueDragEventHandler" Collapsed="true">
+    <Position X="34.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.RoutedEventHandler" Collapsed="true">
+    <Position X="38.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.SourceChangedEventHandler" Collapsed="true">
+    <Position X="45.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.StartupEventHandler" Collapsed="true">
+    <Position X="47" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.ExitEventHandler" Collapsed="true">
+    <Position X="45.25" Y="18" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.SessionEndingCancelEventHandler" Collapsed="true">
+    <Position X="41.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.RequestBringIntoViewEventHandler" Collapsed="true">
+    <Position X="36.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.RoutedPropertyChangedEventHandler&lt;T&gt;" Collapsed="true">
+    <Position X="40" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="System.Windows.SizeChangedEventHandler" Collapsed="true">
+    <Position X="43.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

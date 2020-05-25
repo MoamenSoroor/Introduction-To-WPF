@@ -1,0 +1,31 @@
+﻿<Window x:Class="RenderingWithShapes.TestShapes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RenderingWithShapes"
+        mc:Ignorable="d"
+        Title="TestShapes" Height="500" Width="800">
+    <ScrollViewer >
+        <StackPanel Height="469" Width="792">
+            <Path Fill="Yellow" Stroke="Green" StrokeThickness="5">
+                <Path.Data>
+                    <GeometryGroup>
+                        <EllipseGeometry Center="100,100" RadiusX="80" RadiusY="70"></EllipseGeometry>
+                        <RectangleGeometry Rect="1,1,200,200" ></RectangleGeometry>
+                        <LineGeometry StartPoint="50,50" EndPoint="150,150"></LineGeometry>
+                        <LineGeometry StartPoint="150,50" EndPoint="50,150"></LineGeometry>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            <Polyline Fill="Red"  StrokeThickness="10" Stroke="Green" 
+                StrokeDashArray="5,3" StrokeDashCap="Round" 
+                StrokeEndLineCap="Triangle" StrokeStartLineCap="Round"
+                StrokeLineJoin="Bevel"
+                Points="40,40 200,200 250,200 200,50 400,200 400,50"/>
+            <Polygon Fill="Green"  StrokeThickness="10" StrokeDashOffset="2"
+                Stroke="Red"  StrokeLineJoin="Round"  StrokeDashArray="4,1"
+                Points="50,50 200,50 200,200 50,200"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

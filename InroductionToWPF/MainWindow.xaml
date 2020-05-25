@@ -1,0 +1,47 @@
+﻿<Window x:Class="InroductionToWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InroductionToWPF"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="window With Button" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="label1" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Static sys:Environment.CurrentDirectory}" 
+               ContentStringFormat="{}{0}"
+               />
+        <Label x:Name="label2" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Static sys:Environment.MachineName}" 
+               ContentStringFormat="MachineName: {0}"
+               />
+
+        <Label x:Name="label3" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Static sys:Environment.OSVersion}" 
+               ContentStringFormat="OSVersion: {0}"
+               />
+
+        <Label x:Name="label4" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Static sys:Environment.ProcessorCount}" 
+               ContentStringFormat="ProcessorCount: {0}"
+               />
+
+        <Label x:Name="label5" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Static sys:DateTime.Now}" 
+               ContentStringFormat="DateTime Now: {0}"
+               />
+
+        <Label x:Name="label6" 
+               FontWeight="Bold" FontSize="20"
+               Content="{x:Type sys:Random}" 
+               ContentStringFormat="typeof(Random): {0}"
+               />
+        
+    </StackPanel>
+</Window>

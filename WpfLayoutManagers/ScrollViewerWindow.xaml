@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfLayoutManagers.ScrollViewerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLayoutManagers"
+        mc:Ignorable="d"
+        Title="ScrollViewerWindow" Height="450" Width="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical">
+            <Label FontSize="35" Height= "100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Red">Moamen Soroor</Label>
+            <Label FontSize="35" Height= "100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Green">Moamen Soroor</Label>
+            <Label FontSize="35" Height= "100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Blue">Moamen Soroor</Label>
+            <Label FontSize="35" Height= "100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Yellow">Moamen Soroor</Label>
+            <Label FontSize="35" Height= "100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="YellowGreen">Moamen Soroor</Label>
+            
+        </StackPanel>
+    </ScrollViewer>
+</Window>

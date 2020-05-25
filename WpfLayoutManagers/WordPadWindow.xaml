@@ -1,0 +1,67 @@
+﻿<Window x:Class="WpfLayoutManagers.WordPadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLayoutManagers"
+        mc:Ignorable="d"
+        Title="WordPadWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu x:Name="menu" DockPanel.Dock="Top">
+            <MenuItem Header="File" >
+                <MenuItem Command="ApplicationCommands.Open"></MenuItem>
+                <MenuItem Command="ApplicationCommands.Save"></MenuItem>
+                <MenuItem Command="ApplicationCommands.SaveAs"></MenuItem>
+                <Separator/>
+                <MenuItem x:Name="menuFileExit" Header="Exit" HorizontalAlignment="Left"/>
+            </MenuItem>
+            <MenuItem Header="Edit" >
+                <MenuItem Command="ApplicationCommands.Cut"/>
+                <MenuItem Command="ApplicationCommands.Copy"/>
+                <Separator/>
+                <MenuItem Command="ApplicationCommands.Paste"/>
+                <MenuItem Command="ApplicationCommands.Help"/>
+            </MenuItem>
+            <MenuItem Header="Tools">
+                <MenuItem x:Name="menuCheck" Header="Spelling Hint" HorizontalAlignment="Left"/>
+            </MenuItem>
+            <MenuItem Header="Help" >
+                <MenuItem Name="menuHelp" Command="ApplicationCommands.Help"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar x:Name="toolBar" VerticalAlignment="Top" DockPanel.Dock="Top">
+            <Button x:Name="btnExit" Content="Exit"/>
+            <Separator/>
+            <Button x:Name="btnCheck" Content="Check" Cursor="Help"/>
+        </ToolBar>
+        <StatusBar  x:Name="statusBar" DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarText" FontSize="12"  Text="Ready"/>
+            </StatusBarItem>
+
+        </StatusBar>
+        <Grid  x:Name="grid" DockPanel.Dock="Left" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="257*"/>
+                <ColumnDefinition Width="535*"/>
+            </Grid.ColumnDefinitions>
+            <GridSplitter x:Name="gridSplitter" Grid.Column="0" Width="5" Background="Black"/>
+            <Expander x:Name="expander" Header="Try These!" IsExpanded="True" Margin="10,10,10,10" Background="GhostWhite">
+                <Label x:Name="lblSpellingHints"/>
+            </Expander>
+            <TextBox x:Name="txtData"
+                     FontSize="14"
+                     BorderBrush="DimGray"
+                     BorderThickness="5,5,5,5"
+                     TextWrapping="Wrap" 
+                     Grid.Column="1" 
+                     SpellCheck.IsEnabled="True"
+                     AcceptsReturn="True"
+                     Background="White"
+                     HorizontalScrollBarVisibility="Auto"
+                     VerticalScrollBarVisibility="Auto"
+                     />
+        </Grid>
+
+    </DockPanel>
+</Window>

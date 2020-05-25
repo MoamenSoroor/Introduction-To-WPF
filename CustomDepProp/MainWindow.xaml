@@ -1,0 +1,28 @@
+﻿<Window x:Class="CustomDepProp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomDepProp"
+        xmlns:myctrl="clr-namespace:CustomDepProp"
+        mc:Ignorable="d"
+        Title="Simple Dependency Property App" Height="400" Width="400"
+        WindowStartupLocation="CenterScreen" >
+    <StackPanel>
+        <myctrl:ShowNumberControl x:Name="myShowNumberControl" CurrentNumber="100" />
+        <Separator/>
+        <myctrl:ShowNumberControl x:Name="myShowNumberAnimated" CurrentNumber="100" >
+            <myctrl:ShowNumberControl.Triggers>
+                <EventTrigger RoutedEvent = "myctrl:ShowNumberControl.Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard TargetProperty = "CurrentNumber">
+                                <Int32Animation From = "100" To = "200" Duration = "0:0:10"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </myctrl:ShowNumberControl.Triggers>
+        </myctrl:ShowNumberControl>
+    </StackPanel>
+</Window>
