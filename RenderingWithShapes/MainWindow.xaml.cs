@@ -105,6 +105,22 @@ namespace RenderingWithShapes
             return brush;
         }
 
+        private void flipCanvas_Click(object sender, RoutedEventArgs e)
+        {
+            if (flipCanvas.IsChecked == true)
+            {
+                RotateTransform rotate = new RotateTransform(-180);
+                canvasDrawingArea.LayoutTransform = rotate;
+            }
+            else
+            {
+                canvasDrawingArea.LayoutTransform = null;
+            }
+        }
 
+        private void btnReset_Click(object sender, RoutedEventArgs e)
+        {
+            canvasDrawingArea.Children.Clear();
+        }
     }
 }

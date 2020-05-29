@@ -19,7 +19,9 @@
             <RadioButton Name="circleOption" GroupName="shapeSelection" Click="circleOption_Click">
                 <Ellipse Fill="Green" Width="35" Height="35" x:Name="circleShape" ></Ellipse>
             </RadioButton>
+            <ToggleButton Name="flipCanvas" FontSize="20" Click="flipCanvas_Click" Content="Flip Canvas!"/>
+            <Button x:Name="btnReset" Content="Clear All" FontSize="20" Click="btnReset_Click"/>
         </ToolBar>
-        <Canvas Background="LightBlue" x:Name="canvasDrawingArea" MouseLeftButtonDown="canvasDrawingArea_MouseLeftButtonDown" MouseRightButtonDown="canvasDrawingArea_MouseRightButtonDown"></Canvas>
+        <Canvas Background="LightBlue" ClipToBounds="True" x:Name="canvasDrawingArea" MouseLeftButtonDown="canvasDrawingArea_MouseLeftButtonDown" MouseRightButtonDown="canvasDrawingArea_MouseRightButtonDown"></Canvas>
     </DockPanel>
 </Window>

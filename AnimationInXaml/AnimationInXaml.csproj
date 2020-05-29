@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{494D7CB1-E834-4E81-AB03-3262B910A8D3}</ProjectGuid>
+    <ProjectGuid>{BC20152C-5628-40B2-AE24-A04D6C015A8D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RenderingWithShapes</RootNamespace>
-    <AssemblyName>RenderingWithShapes</AssemblyName>
+    <RootNamespace>AnimationInXaml</RootNamespace>
+    <AssemblyName>AnimationInXaml</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,17 +53,9 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="GraphicalTransform.xaml.cs">
-      <DependentUpon>GraphicalTransform.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PathWindow.xaml.cs">
-      <DependentUpon>PathWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TestShapes.xaml.cs">
-      <DependentUpon>TestShapes.xaml</DependentUpon>
-    </Compile>
-    <Page Include="GraphicalTransform.xaml">
+    <Page Include="AnimateStringWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -71,6 +63,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="AnimateStringWindow.xaml.cs">
+      <DependentUpon>AnimateStringWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -79,14 +74,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PathWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="TestShapes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

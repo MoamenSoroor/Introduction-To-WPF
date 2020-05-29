@@ -1,0 +1,43 @@
+﻿<Window
+    x:Class="ControlTemplate.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ControlTemplate"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel Orientation="Horizontal">
+        <Button
+            x:Name="myButton"
+            Width="100"
+            Height="100"
+            Background="Red"
+            Click="myButton_Click"
+            Content="Button1"
+            Template="{StaticResource RoundButtonTemplate}" />
+        <Button
+            x:Name="myButton2"
+            Width="100"
+            Height="100"
+            Background="Green"
+            Content="Button2"
+            Template="{StaticResource RoundButtonTemplate}" />
+        <Button
+            x:Name="myButton3"
+            Width="100"
+            Height="100"
+            Background="Aqua"
+            Click="myButton_Click"
+            Content="Button3"
+            FontSize="20"
+            Template="{StaticResource GeneralRoundButtonTemplate}" />
+        <Button
+            x:Name="myButton4"
+            Click="myButton_Click"
+            Content="Styled"
+            Style="{StaticResource RoundButtonStyle}" />
+    </StackPanel>
+</Window>

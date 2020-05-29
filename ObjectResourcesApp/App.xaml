@@ -1,0 +1,25 @@
+﻿<Application x:Class="ObjectResourcesApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ObjectResourcesApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <!-- 
+        // You can define many Resource like this one:
+        <RadialGradientBrush x:Key="myBrush2">
+            <GradientStop Color="#FFC44EC4" Offset="0" />
+            <GradientStop Color="#FF829CEB" Offset="1" />
+            <GradientStop Color="#FFCBB4C8" Offset="0.5" />
+        </RadialGradientBrush>
+        -->
+
+        <!-- or you cana reference another resource file in Application level or in a Library outside-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="MyBrushes.xaml"/>
+                <ResourceDictionary Source="/MyBrushesLibrary;Component/MyBrushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

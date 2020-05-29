@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MyBrushesLibrary">
+    <RadialGradientBrush x:Key="myBrush5">
+        <GradientStop Color="#FFC44EC4" Offset="0" />
+        <GradientStop Color="#FF829CEB" Offset="1" />
+        <GradientStop Color="#FFC15DE6" Offset="0.669" />
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="myBrush6">
+        <GradientStop Color="#FFC44EC4" Offset="0" />
+        <GradientStop Color="#FF829CEB" Offset="1" />
+        <GradientStop Color="#FFE48458" Offset="0.669" />
+    </RadialGradientBrush>
+</ResourceDictionary>
